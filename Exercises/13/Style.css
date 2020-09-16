@@ -1,0 +1,12 @@
+.Header{
+    text-align: center;
+}
+.navLinks{
+    color: red;
+}
+.unvisitedLinks{
+    color: #00aced;
+}
+.p {
+    font-size: 18px;
+}
