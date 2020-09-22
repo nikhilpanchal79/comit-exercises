@@ -1,14 +1,27 @@
-    .center {
+    html,
+    body{
+        height: 100%;
+    }
+    header {
+        background: greenyellow;
+    }
+    header img{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 20%;
+        height: 30%;
     }
-    div{
-        margin: center;
+    header h1{
+        text-align: center;
+    }
+    header a{
+        display: flexbox;
+        text-decoration: none;
         justify-items: center;
     }
     main{
+        background: burlywood;
         padding: 10px;
         border: dotted firebrick;;
     }
