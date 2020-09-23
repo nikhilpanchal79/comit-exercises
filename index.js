@@ -1,0 +1,13 @@
+const MONTH_OF_BIRTH = "August";
+const FIRST_NAME = "Nikhil";
+const LAST_NAME = "Panchal";
+let city = "Winnipeg";
+let age = 30;
+let nextCity = city;
+console.log('Month of Birth: ', MONTH_OF_BIRTH);
+console.log("First Name: ", FIRST_NAME);
+console.log("Last Name: ", LAST_NAME);
+console.log("City: ", city);
+console.log("Age: ", age);
+console.log("Next City: ", nextCity);
+console.log(`Hi, my first name is `, FIRST_NAME, `and my last name is `, LAST_NAME);
