@@ -1,13 +1,16 @@
-const MONTH_OF_BIRTH = "August";
-const FIRST_NAME = "Nikhil";
-const LAST_NAME = "Panchal";
-let city = "Winnipeg";
 let age = 30;
-let nextCity = city;
-console.log('Month of Birth: ', MONTH_OF_BIRTH);
-console.log("First Name: ", FIRST_NAME);
-console.log("Last Name: ", LAST_NAME);
-console.log("City: ", city);
-console.log("Age: ", age);
-console.log("Next City: ", nextCity);
-console.log(`Hi, my first name is `, FIRST_NAME, `and my last name is `, LAST_NAME);
+let firstname = "Nikhil";
+let coursecomplete = 'True';
+let finalscore = null;
+
+let winningnumbers;
+
+console.log('Age: ', age);
+console.log('First Name: ', firstname);
+console.log('Course completed?: ', coursecomplete);
+console.log('Final Score: ', finalscore);
+
+console.log('Age as Boolean: ', Boolean(age));
+console.log('First Name as Number: ', Number(firstname));
+console.log('Course completed? as String: ', String(coursecomplete));
+console.log('Final Score as String: ', String(finalscore));
