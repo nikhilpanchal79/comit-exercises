@@ -70,12 +70,7 @@ textarea, label {
 }
 .homeContainer {
     display: flex;
-    border: 10px solid goldenrod;
-    min-height: 100vh;
-    
 }
 .homeImage {
     flex: 1;
-    padding-left: 40px;
-    
 }
